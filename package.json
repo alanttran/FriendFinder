@@ -1,0 +1,24 @@
+{
+  "name": "friend-finder",
+  "version": "1.0.0",
+  "description": "find friends by answering some questions",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alanttran/FriendFinder.git"
+  },
+  "author": "Alan Tran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alanttran/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/alanttran/FriendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3"
+  }
+}

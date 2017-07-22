@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friend Finder</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.0/css/materialize.min.css">
+</head>
+
+<body style="background: url('https://s-media-cache-ak0.pinimg.com/originals/37/74/59/3774598ecdacdf8b15f8b48c1cf876d8.jpg') no-repeat 0 -200px;">
+    <div class="container" style="padding: 50px 200px 30px 200px;  background-color: rgba(255, 255, 255, 0.9);">
+        <h2>Friend Finder Survey</h2>
+        <br>
+        <div class="row">
+            <div class="input-field col s6">
+                <i class="material-icons prefix" style="top:14%;">account_circle</i>
+                <input id="name" type="text" class="validate" required>
+                <label for="name">Name</label>
+            </div>
+            <div class="input-field col s6">
+                <i class="material-icons prefix" style="top:14%;">image</i>
+                <input id="photo" type="text" class="validate" required>
+                <label for="photo">Link to your photo</label>
+            </div>
+        </div>
+        <form class="row">
+            <div class="input-field col s12">
+                <div style="font-size: 20px;"><b>1. I take charge.</b></div>
+                <select required>
+                    <option value="" disabled selected></option>
+                    <option value="1">1 (inaccurate)</option>
+                    <option value="2">2 </option>
+                    <option value="3">3 </option>
+                    <option value="4">4 </option>
+                    <option value="5">5 (accurate)</option>
+                </select>
+            </div>
+            <div class="input-field col s12">
+                <div style="font-size: 20px;"><b>2. I have a vivid imagination.</b></div>
+                <select required>
+                    <option value="" disabled selected></option>
+                    <option value="1">1 (inaccurate)</option>
+                    <option value="2">2 </option>
+                    <option value="3">3 </option>
+                    <option value="4">4 </option>
+                    <option value="5">5 (accurate)</option>
+                </select>
+            </div>
+            <div class="input-field col s12">
+                <div style="font-size: 20px;"><b>3. I worry about things.</b></div>
+                <select required>
+                    <option value="" disabled selected></option>
+                    <option value="1">1 (inaccurate)</option>
+                    <option value="2">2 </option>
+                    <option value="3">3 </option>
+                    <option value="4">4 </option>
+                    <option value="5">5 (accurate)</option>
+                </select>
+            </div>
+            <div class="input-field col s12">
+                <div style="font-size: 20px;"><b>4. I love large parties.</b></div>
+                <select required>
+                    <option value="" disabled selected></option>
+                    <option value="1">1 (inaccurate)</option>
+                    <option value="2">2 </option>
+                    <option value="3">3 </option>
+                    <option value="4">4 </option>
+                    <option value="5">5 (accurate)</option>
+                </select>
+            </div>
+            <div class="input-field col s12">
+                <div style="font-size: 20px;"><b>5. I believe in the importance of art.</b></div>
+                <select required>
+                    <option value="" disabled selected></option>
+                    <option value="1">1 (inaccurate)</option>
+                    <option value="2">2 </option>
+                    <option value="3">3 </option>
+                    <option value="4">4 </option>
+                    <option value="5">5 (accurate)</option>
+                </select>
+            </div>
+            <div class="input-field col s12">
+                <div style="font-size: 20px;"><b>6. I get angry easily.</b></div>
+                <select required>
+                    <option value="" disabled selected></option>
+                    <option value="1">1 (inaccurate)</option>
+                    <option value="2">2 </option>
+                    <option value="3">3 </option>
+                    <option value="4">4 </option>
+                    <option value="5">5 (accurate)</option>
+                </select>
+            </div>
+            <div class="input-field col s12">
+                <div style="font-size: 20px;"><b>7. I experience my emotions intensely.</b></div>
+                <select required>
+                    <option value="" disabled selected></option>
+                    <option value="1">1 (inaccurate)</option>
+                    <option value="2">2 </option>
+                    <option value="3">3 </option>
+                    <option value="4">4 </option>
+                    <option value="5">5 (accurate)</option>
+                </select>
+            </div>
+            <div class="input-field col s12">
+                <div style="font-size: 20px;"><b>8. I often feel blue.</b></div>
+                <select required>
+                    <option value="" disabled selected></option>
+                    <option value="1">1 (inaccurate)</option>
+                    <option value="2">2 </option>
+                    <option value="3">3 </option>
+                    <option value="4">4 </option>
+                    <option value="5">5 (accurate)</option>
+                </select>
+            </div>
+            <div class="input-field col s12">
+                <div style="font-size: 20px;"><b>9. I am always busy.</b></div>
+                <select required>
+                    <option value="" disabled selected></option>
+                    <option value="1">1 (inaccurate)</option>
+                    <option value="2">2 </option>
+                    <option value="3">3 </option>
+                    <option value="4">4 </option>
+                    <option value="5">5 (accurate)</option>
+                </select>
+            </div>
+            <div class="input-field col s12">
+                <div style="font-size: 20px;"><b>10. I am easily intimidated.</b></div>
+                <select required>
+                    <option value="" disabled selected></option>
+                    <option value="1">1 (inaccurate)</option>
+                    <option value="2">2 </option>
+                    <option value="3">3 </option>
+                    <option value="4">4 </option>
+                    <option value="5">5 (accurate)</option>
+                </select>
+            </div>
+            <button id="submit" type="submit" class="waves-effect waves-light btn-large" style="float: right">Find Friends!</button>
+        </form>
+        <div id="modal1" class="modal">
+            <div class="modal-content" style="text-align: center">
+                <h4>We found your match!</h4>
+                <img id="match-photo" src="" alt="" style="max-height:300px;">
+                <h5 id="match-name">Name</h5>
+                <h5 id="match-confidence">0%</h5>
+                <a href="#!" class="modal-action modal-close waves-effect waves-green btn-large">Cool! I would like to chat!</a>
+            </div>
+        </div>
+    </div>
+    <!-- Compiled and minified JavaScript -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.0/js/materialize.min.js"></script>
+</body>
+
+</html>
+<script>
+$(document).ready(function() {
+    $('select').material_select();
+
+
+    $("#submit").on("click", function(event) {
+        event.preventDefault();
+
+        var valid = false;
+
+        // get all the select values
+        var scoreArray = $('select').map(function() {
+            return this.value;
+        }).get()
+
+        if ($("#name").val().length > 0 && $("#photo").val().length > 0) {
+            valid = true;
+        }
+        scoreArray.forEach(function(element, index, array) {
+            if (element.length === 0) {
+                valid = false;
+            }
+        })
+
+        if (valid) {
+            // create new friend
+            var newFriend = {
+                name: $("#name").val().trim(),
+                photo: $("#photo").val().trim(),
+                scores: scoreArray
+            };
+
+            $.post("/api/friends", newFriend,
+                function(data) {
+                    if (data) {
+                        console.log("successful post");
+                    }
+                });
+            compareFriends();
+        }
+    });
+
+    function compareFriends() {
+
+        $.get("api/friends", function(data) {
+            console.log(data);
+            var match;
+            var confidence = 0;
+            if (data.length === 2) {
+                $('#match-name').val(data[0].name);
+                $('#match-photo').attr('src', data[0].photo);
+            } else {
+                var userScores = data[data.length - 1].scores;
+                var closestFriend;
+
+                var otherFriendsLength = data.length - 1;
+
+                for (var i = 0; i < otherFriendsLength; i++) {
+                    var totalDifference = 0;
+                    var leastDifference = 10000;
+                    var potentialFriend = data[i];
+                    for (var j = 0; j < potentialFriend.scores.length; j++) {
+                        totalDifference += Math.abs(parseInt(potentialFriend.scores[j]) - parseInt(userScores[j]));
+                    }
+                    console.log("total Difference " + totalDifference);
+                    if (totalDifference < leastDifference) {
+                        closestFriend = potentialFriend;
+                        console.log(closestFriend);
+                        confidence = ((40 - totalDifference) / 40).toFixed(2) * 100;
+                    }
+                    console.log(confidence);
+
+                }
+                match = potentialFriend;
+            }
+            $('#match-name').text(match.name);
+            $('#match-photo').attr('src', match.photo);
+            $('#match-confidence').text(confidence + "%");
+            $('#modal1').modal();
+            $('#modal1').modal('open');
+            $('form')[0].reset();
+            $("#name").val("");
+            $("#photo").val("");
+        })
+
+    }
+});
+</script>
